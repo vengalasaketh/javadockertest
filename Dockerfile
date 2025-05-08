@@ -5,7 +5,7 @@ WORKDIR /app
 # Copy the current directory contents into the container at /app
 COPY . .
 # Compile the Java program
-RUN javac Sample.java
+RUN javac Sample1.java
 # Command to run the program
-CMD ["java", "Sample"]
+CMD ["java", "Sample1"]
 
